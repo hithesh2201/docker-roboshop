@@ -21,6 +21,8 @@ services:
     depends_on:
       - catalogue
       - mongodb
+      - user
+      - cart
   redis:
     image: redis
     container_name: redis
